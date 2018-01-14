@@ -1,0 +1,232 @@
+/* CSS Document */
+
+.mheader{
+	
+	height: 2em;
+	background: #ffffff;
+
+}
+
+
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5em;	
+	font-weight: 700;
+	color:  black;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	text-align: center;
+	clear:both;
+}
+
+h2{
+	font-family:  'Open Sans Condensed', sans-serif;
+	font-size: 1.7em;	
+	font-weight: bold;
+	text-align: center;
+	color:  #1E1B1B;
+
+}
+
+h3 {
+			font-family:  'Oswald', sans-serif;
+            font-size: 1.3em;	
+			font-weight: bold;
+			text-align: center;
+            color: #282828;
+    }
+h4 {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	color:#59BEA9;
+}
+
+h5 {
+	
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	color:#0F0F0F;
+	
+}
+
+p {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	color: #131313;
+	line-height: 1.5;
+	padding: 0.5em;	
+}
+li{
+	list-style: none;
+	float: left;
+	font-size: 0.6em;
+	padding-top: 1em;
+    display: inline-block;
+}
+
+body{
+	background:#ffffff;
+}
+
+.nav-flex-container {
+
+      list-style: none;
+	  float: right;
+	  margin-left: 1.25em;
+	  padding-right: 2em;
+
+}
+
+.nav-flex-container a {
+	display: inline-block;
+	margin-left: 1.25em;
+	color: #5F5F5F;
+	text-decoration: none;
+	font-family:  'Oswald', sans-serif;
+	font-size: 1.5em;
+	font-weight:500;
+}
+
+.filter_bar {
+	
+	background-color: #d2ece6;
+	padding: 5px;
+	text-align: center;
+	
+	font-family:  'Oswald', sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	word-spacing: 1em;
+
+
+}
+.filter_bar select{
+	font-size:1em;
+}
+
+
+.flex-container{
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction:row;
+	flex-direction:row;
+	padding-bottom:5px;
+	padding-left: 3em;
+	width:auto;
+	margin: auto;
+}
+
+
+
+.flex-container div{
+	background-color: #ffffff;
+	font-size:20px;
+	
+	
+}
+
+.sub-flex-container{
+	display:flex;
+	flex-direction: column;
+	background-color: darkgray;
+	padding-bottom:5px;
+	padding-right: 4em;
+	width:auto;
+	margin: auto;
+}
+
+a {
+	color: #2A679F;
+	
+}
+
+
+/*search funciton*/
+
+
+
+.msearch{
+	text-align: center;
+}
+
+datalist { 
+    display: none;
+}
+
+input {
+	
+	width: 20em;
+	padding: 0.5em 0.5em;
+	border: 1px #2679E9;
+	border-radius: 3px;
+	
+}
+
+
+
+
+
+/*Snigdha CSS*/
+
+
+
+
+
+
+
+/*Dongxie CSS*/
+
+
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.x.axis path {
+	display: none;
+}
+
+.sel:hover{
+	fill: #CECC72 !important;
+}
+
+
+label {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.d3-tip {
+	line-height: 1;
+	font-weight: bold;
+	padding: 2px;
+	margin-left: 10%;
+	background: rgba(229,229,229, 0.8);
+	color: rgba(0,0,0, 0.7);
+	border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+	margin: 30px 0 0 0;
+	top: 100%;
+	left: 0;
+}
+
+
+
+
+/*Ashely Css*/
+
+
